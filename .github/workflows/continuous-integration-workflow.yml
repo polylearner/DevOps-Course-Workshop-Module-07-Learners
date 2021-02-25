@@ -13,3 +13,4 @@ jobs:
     - run: dotnet build DotnetTemplate.Web
     - run: npm install
       working-directory: ./DotnetTemplate.Web
+    - run: npm run build
